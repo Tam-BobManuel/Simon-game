@@ -21,14 +21,7 @@ body {
   padding: 0%;
 }
 
-@media (min-width: 700px) {
-  .btn{
-    margin: 5px;
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-  }
-}
+
 
 .how{
   display: block;
@@ -36,6 +29,47 @@ body {
   float: right;
   font-size: 1rem;
 }
+
+@media (max-width: 700px) {
+  .btn {
+    margin: 5px !important;
+    display: inline-block !important;
+    height: 50px !important;
+    width: 50px !important;
+    padding: 50px !important;
+    border: 2px solid black !important;
+    box-shadow: -5px 5px 10px black !important;
+    border-radius: 20% !important;
+  }
+}
+
+@media (max-width: 495px) {
+  .btn {
+    margin: 5px !important;
+    display: inline-block !important;
+    height: 25px !important;
+    width: 25px !important;
+    padding: 25px !important;
+    border: 2px solid black !important;
+    box-shadow: -5px 5px 10px black !important;
+    border-radius: 20% !important;
+  }
+}
+
+@media (max-width: 285px) {
+  .btn {
+    margin: 5px !important;
+    display: inline-block !important;
+    height: 15px !important;
+    width: 15px !important;
+    padding: 15px !important;
+    border: 2px solid black !important;
+    box-shadow: -5px 5px 10px black !important;
+    border-radius: 20% !important;
+  }
+}
+
+
 
 .btn {
   margin: 10px;
