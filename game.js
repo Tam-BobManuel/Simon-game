@@ -8,9 +8,9 @@ var level = 0;
 
     // EXPLAIN HOW THE GAME WORKS THROUGH AN ALERT
   
-  $(".how").click(function(){
-    confirm("A round in the game consists of the device lighting up one or more buttons in a random order, after which the player must reproduce that order by pressing the buttons. As the game progresses, the number of buttons to be pressed increases");
-  });
+  // $(".how").click(function(){
+  //   confirm("A round in the game consists of the device lighting up one or more buttons in a random order, after which the player must reproduce that order by pressing the buttons. As the game progresses, the number of buttons to be pressed increases");
+  // });
 
     // TO START THE GAME WHEN YOU CLCIK A BUTTON
 
